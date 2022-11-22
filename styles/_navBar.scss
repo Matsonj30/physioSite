@@ -9,12 +9,12 @@
         height: 100px;
         width: 200px;
     }
-    ul{
+    .navigation{
         display: flex;
         align-items: center;
         list-style: none;
         li{
-            padding-left: 7vw;
+            padding-left: 4vw;
             a{
                 text-decoration: none;
                 color: black;
@@ -30,6 +30,29 @@
                 
             }
           
+        }
+    }
+    .socialList{
+        list-style: none;
+        display: flex;
+        transform: translateX(250px);
+        li{
+            width: 28px;
+            height: 28px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgb(212, 212, 212);
+            a{  
+                padding-top: 3px;
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+            }
+            a:hover{
+                color: $accent;
+            }
         }
     }
 }

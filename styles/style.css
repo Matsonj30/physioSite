@@ -22,15 +22,15 @@
   height: 100px;
   width: 200px;
 }
-.navBar ul {
+.navBar .navigation {
   display: flex;
   align-items: center;
   list-style: none;
 }
-.navBar ul li {
-  padding-left: 7vw;
+.navBar .navigation li {
+  padding-left: 4vw;
 }
-.navBar ul li a {
+.navBar .navigation li a {
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -39,9 +39,32 @@
   letter-spacing: 0.5px;
   transition: 0.3s ease-in-out;
 }
-.navBar ul li a:hover {
+.navBar .navigation li a:hover {
   background-color: #FF715B;
   border-radius: 5px;
+}
+.navBar .socialList {
+  list-style: none;
+  display: flex;
+  transform: translateX(250px);
+}
+.navBar .socialList li {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(212, 212, 212);
+}
+.navBar .socialList li a {
+  padding-top: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.navBar .socialList li a:hover {
+  color: #FF715B;
 }
 
 .landing {
