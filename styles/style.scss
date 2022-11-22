@@ -1,3 +1,19 @@
-$primary: #fafafa;
+$primary: #f0f0f0;
 $black: #362C28;
 $accent: #FF715B;
+$font1: 'Poppins', sans-serif;
+$font2:'Roboto', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $font2;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@import "_navBar.scss";
+@import "_landing.scss";
