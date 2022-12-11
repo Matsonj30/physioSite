@@ -1,11 +1,12 @@
 .landing{
     position: relative;
     z-index: -1;
-    height: 700px;
+    height: 750px;
     .darkCover{
         position: fixed;
         background-image: url("../images/physiotherapy-g887dec3e3_1920.jpg");
         width: 100%;
+        background-size: cover;
         height: 1000px;
         transform: translateY(-850px);
         overflow: visible;

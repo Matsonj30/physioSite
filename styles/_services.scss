@@ -1,0 +1,98 @@
+.services{
+    width: 100%;
+    height: fit-content;
+    background-color: $primary;
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title{
+            display: flex;
+            padding: 15px 0px;
+            h1{
+                font-size: 50px;
+                font-weight: 700;
+            }
+            .firstWord{
+                color: $accent;
+            }
+        }
+        .dottedBorder{
+            position: relative;
+            z-index: 0;
+            width: 150px;
+            border-bottom: 2px solid $accent;
+        }
+        .titleIcon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 62px;
+            height: 50px;
+            background-color: $primary;
+            transform: translateY(-28px);
+        }
+        .fa{
+            position: relative;
+            z-index: 1;
+            color: $accent;
+            background-color: $primary;
+            font-size: 30px;
+        
+        }
+       
+    }
+
+    .overview{
+        width: 500px;
+        text-align: center;
+        transform: translateY(-10px);
+    }
+    .content{
+        max-width: 1400px;
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .section{
+            width: 260px;
+            margin: 00px 10px;
+
+            .sectionTitle{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: $accent;
+                height: 150px;
+                width: 100%;
+                border-radius: 15% 15% 0% 0%;
+                color: $primary;
+               
+
+                .fa{
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    font-size: 70px;
+                }
+                h2{
+                    font-weight: 100;
+                }
+            }
+            .sectionDescription{
+                width: 100%;
+                background-color: #FAFAFA;
+                height: 250px;
+                border-radius: 00% 0% 15% 15%;
+                font-size: 14px;
+                text-align: center;
+      
+                box-shadow: 6.0px 12.0px 12.0px hsl(0deg 0% 0% / 0.31);
+
+                p{
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}

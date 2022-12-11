@@ -1,4 +1,5 @@
-$primary: #f0f0f0;
+$primary: #f3f3f3;
+$primary: #e4e4e4;
 $black: #362C28;
 $accent: #FF715B;
 $font1: 'Poppins', sans-serif;
@@ -17,3 +18,5 @@ $font2:'Roboto', sans-serif;
 }
 @import "_navBar.scss";
 @import "_landing.scss";
+@import "_services.scss";
+@import "_meetTheTeam.scss";

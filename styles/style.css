@@ -13,7 +13,7 @@
 .navBar {
   width: 100%;
   height: 125px;
-  background-color: #f0f0f0;
+  background-color: #e4e4e4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,12 +70,13 @@
 .landing {
   position: relative;
   z-index: -1;
-  height: 700px;
+  height: 750px;
 }
 .landing .darkCover {
   position: fixed;
   background-image: url("../images/physiotherapy-g887dec3e3_1920.jpg");
   width: 100%;
+  background-size: cover;
   height: 1000px;
   transform: translateY(-850px);
   overflow: visible;
@@ -92,7 +93,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
-  color: #f0f0f0;
+  color: #e4e4e4;
   height: 600px;
   max-width: 1300px;
   text-align: center;
@@ -114,11 +115,173 @@
   height: 55px;
   font-size: 18px;
   border-radius: 35px;
-  color: #f0f0f0;
+  color: #e4e4e4;
 }
 
 .nextDiv {
   width: 100%;
   height: 200px;
-  background-color: #f0f0f0;
+  background-color: #e4e4e4;
+}
+
+.services {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #e4e4e4;
+}
+.services .header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .header .title {
+  display: flex;
+  padding: 15px 0px;
+}
+.services .header .title h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.services .header .title .firstWord {
+  color: #FF715B;
+}
+.services .header .dottedBorder {
+  position: relative;
+  z-index: 0;
+  width: 150px;
+  border-bottom: 2px solid #FF715B;
+}
+.services .header .titleIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 50px;
+  background-color: #e4e4e4;
+  transform: translateY(-28px);
+}
+.services .header .fa {
+  position: relative;
+  z-index: 1;
+  color: #FF715B;
+  background-color: #e4e4e4;
+  font-size: 30px;
+}
+.services .overview {
+  width: 500px;
+  text-align: center;
+  transform: translateY(-10px);
+}
+.services .content {
+  max-width: 1400px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services .content .section {
+  width: 260px;
+  margin: 0px 10px;
+}
+.services .content .section .sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FF715B;
+  height: 150px;
+  width: 100%;
+  border-radius: 15% 15% 0% 0%;
+  color: #e4e4e4;
+}
+.services .content .section .sectionTitle .fa {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 70px;
+}
+.services .content .section .sectionTitle h2 {
+  font-weight: 100;
+}
+.services .content .section .sectionDescription {
+  width: 100%;
+  background-color: #FAFAFA;
+  height: 250px;
+  border-radius: 0% 0% 15% 15%;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 6px 12px 12px hsla(0deg, 0%, 0%, 0.31);
+}
+.services .content .section .sectionDescription p {
+  padding-top: 15px;
+}
+
+.meetTheTeam {
+  margin-top: 30px;
+}
+.meetTheTeam .members {
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.meetTheTeam .members .memberCard {
+  width: 280px;
+  height: 450px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 15px 15px;
+}
+.meetTheTeam .members .memberCard .memberImg {
+  width: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.meetTheTeam .members .memberCard img {
+  width: auto;
+  height: 210px;
+}
+.meetTheTeam .members .memberCard .memberContent {
+  width: 250px;
+}
+.meetTheTeam .members .memberCard .memberContent .memberRole {
+  color: rgba(179, 179, 179, 0.8941176471);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.meetTheTeam .members .memberCard .memberContent .memberName {
+  color: #FF715B;
+  font-weight: 600;
+  font-size: 22px;
+}
+.meetTheTeam .members .memberCard .memberContent .memberDescription {
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.meetTheTeam .members .memberCard .memberContent .memberSocials {
+  display: flex;
+  padding-bottom: 10px;
+}
+.meetTheTeam .members .memberCard .memberContent .memberSocials .social {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF715B;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.meetTheTeam .members .memberCard .memberContent .memberSocials .social .fa {
+  color: #FAFAFA;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
